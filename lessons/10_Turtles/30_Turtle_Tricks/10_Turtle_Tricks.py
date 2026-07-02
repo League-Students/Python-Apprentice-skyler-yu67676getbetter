@@ -30,4 +30,4 @@ tina.left(120)
 tina.pencolor(yellow)
 tina.forward(50)
 
-turtle.exitonclick()                   
+turtle.exitonclick()  
