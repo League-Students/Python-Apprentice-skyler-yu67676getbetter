@@ -17,3 +17,5 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
+
+tina.begin_fill()
