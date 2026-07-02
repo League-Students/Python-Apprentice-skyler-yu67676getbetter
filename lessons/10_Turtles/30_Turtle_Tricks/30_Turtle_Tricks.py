@@ -8,7 +8,7 @@ In this assignment, you will use Tina the Turtle to draw multiple shapes on the 
 - Use the turtle commands: begin_fill(), end_fill(), fillcolor(), circle(), and goto() to complete the task.
 - Try different colors and positions.
 
-Refer to the previous program, Meet_Tina.py for examples of how to use these turtle commands.
+Refer to the previous program, Meet_Tina.py
 """
 
 # These lines are needed in most turtle programs
@@ -17,10 +17,3 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
-# Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
-
-... # Your code here
-
-turtle.exitonclick()                    # Close the window when we click on it
-
-# Save your progress by checking in your code.
