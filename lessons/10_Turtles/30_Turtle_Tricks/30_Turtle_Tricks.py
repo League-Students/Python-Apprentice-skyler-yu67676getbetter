@@ -20,6 +20,12 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.begin_fill()
 tina.color('red')
-tina.circle(90)
+tina.circle(0.01)
+tina.end_fill()
+tina.goto (0,-100)
+
+tina.begin_fill()
+tina.color('blue')
+tina.circle(0.02)
 tina.end_fill()
 turtle.exitonclick()
