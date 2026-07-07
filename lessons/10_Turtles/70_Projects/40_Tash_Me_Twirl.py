@@ -54,8 +54,8 @@ t.penup()
 
 # This is the function that gets called when you click on the screen
 def screen_clicked(x, y):
-    print("click clack")
-    t.forward(9)
+    print("67")
+    t.forward(90)
     t.left(360)
     
   
