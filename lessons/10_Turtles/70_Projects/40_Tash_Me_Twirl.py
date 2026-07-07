@@ -58,7 +58,7 @@ t.penup()   # Prevent drawing when moving
 def screen_clicked(x, y):
     """Print the x and y coordinates of the screen when clicked.
     and make the turtle move to the clicked location."""
-
+t.left(360)
     
   
 screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
