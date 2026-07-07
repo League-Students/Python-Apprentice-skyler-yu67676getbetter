@@ -48,12 +48,12 @@ screen.setup(width=600, height=600)
 t = turtle.Turtle()
 
 set_turtle_image(t, "moustache1.gif")
-
-t.penup()   # Prevent drawing when moving
+ # Prevent drawing when moving
  # Set the shape of the turtle
 
 # This is the function that gets called when you click on the screen
 def screen_clicked(x, y):
+    print("click clack")
     t.left(360)
     
   
