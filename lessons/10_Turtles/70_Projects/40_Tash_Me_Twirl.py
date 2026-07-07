@@ -50,15 +50,13 @@ t = turtle.Turtle()
 set_turtle_image(t, "moustache1.gif")
 
 t.penup()   # Prevent drawing when moving
-
-
-                   # Set the shape of the turtle
+ # Set the shape of the turtle
 
 # This is the function that gets called when you click on the screen
 def screen_clicked(x, y):
     """Print the x and y coordinates of the screen when clicked.
     and make the turtle move to the clicked location."""
-t.left(360)
+    t.left(360)
     
   
 screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
