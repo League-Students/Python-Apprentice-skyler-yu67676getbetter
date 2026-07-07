@@ -51,7 +51,6 @@ set_turtle_image(t, "moustache1.gif")
 
 t.penup()   # Prevent drawing when moving
 
-import turtle
 
 screen = turtle.Screen()                # Set up the screen
 screen.setup(width=600, height=600)     # Set the size of the window
