@@ -54,8 +54,6 @@ t.penup()   # Prevent drawing when moving
 
 # This is the function that gets called when you click on the screen
 def screen_clicked(x, y):
-    """Print the x and y coordinates of the screen when clicked.
-    and make the turtle move to the clicked location."""
     t.left(360)
     
   
