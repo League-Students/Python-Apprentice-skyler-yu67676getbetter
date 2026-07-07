@@ -50,6 +50,7 @@ t = turtle.Turtle()
 set_turtle_image(t, "moustache1.gif")
 
 t.penup()   # Prevent drawing when moving
+turtle.exitonclick() 
 
 
 # Double-click to copy!
