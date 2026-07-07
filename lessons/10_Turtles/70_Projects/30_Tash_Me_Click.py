@@ -34,7 +34,7 @@ def set_turtle_image(turtle, image_name):
 
     from pathlib import Path                        # Import Path from pathlib module
     image_dir = Path(__file__).parent.parent / "images"    # Define the directory containing images
-    image_path = str(image_dir / image_name)        # Create the full path to the image file
+    image_path = str(image_dir / image_name)        # Create the full path to the image 
 
     screen = turtle.getscreen()                     # Get the turtle's screen
     screen.addshape(image_path)                     # Register the image as a shape
@@ -51,5 +51,25 @@ set_turtle_image(t, "moustache1.gif")
 
 t.penup()   # Prevent drawing when moving
 
+import turtle
 
-turtle.exitonclick() 
+screen = turtle.Screen()                # Set up the screen
+screen.setup(width=600, height=600)     # Set the size of the window
+screen.bgcolor('white')                 # Set the background color
+
+t = turtle.Turtle()                     # Create a turtle
+t.penup()                               # Prevent drawing when moving
+t.shape("turtle")                       # Set the shape of the turtle
+
+# This is the function that gets called when you click on the screen
+def screen_clicked(x, y):
+    """Print the x and y coordinates of the screen when clicked.
+    and make the turtle move to the clicked location."""
+
+    print('You pressed: x=' + str(x) + ', y=' + str(y))
+
+    t.goto(x, y) # Move the turtle to the clicked location
+  
+screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
+
+turtle.done() # Important! Use `done` not `exitonclick` to keep the window open
