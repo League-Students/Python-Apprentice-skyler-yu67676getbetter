@@ -15,6 +15,7 @@ window = turtle.Screen()
 
 t = turtle.Turtle()
 t.shape("turtle")
+t.goto(50,50)
 t.width(2)
 t.speed(0)
 
