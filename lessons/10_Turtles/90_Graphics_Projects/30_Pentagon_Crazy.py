@@ -16,7 +16,7 @@ name: Pentagon Crazy
 
 
 
-import random
+3333333import random
 import turtle
 
 colors = ("red", "blue", "green", "yellow", "orange")
