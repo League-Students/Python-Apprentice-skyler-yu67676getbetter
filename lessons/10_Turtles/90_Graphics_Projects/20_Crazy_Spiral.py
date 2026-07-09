@@ -17,7 +17,7 @@ t = turtle.Turtle()
 t.shape("turtle")
 t.penup()
 t.goto(-150,-150)
-t.pebdown()
+t.pendown()
 t.width(2)
 t.speed(0)
 
