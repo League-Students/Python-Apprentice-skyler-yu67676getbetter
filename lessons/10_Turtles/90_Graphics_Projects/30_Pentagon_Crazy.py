@@ -7,6 +7,7 @@ uid: QG1OFNKY
 name: Pentagon Crazy
 """
 
+
 import random
 import turtle
 
