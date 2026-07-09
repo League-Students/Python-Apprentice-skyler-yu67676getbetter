@@ -7,7 +7,7 @@ in 10_Flaming_Ninja_Star.py, but use what you've learned about loops
 uid: zfzMbyH7
 name: Crazy Spiral
 """
-
+import turtle
 ... # Copy code to make a turtle and set up the window
 
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
