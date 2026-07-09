@@ -38,3 +38,4 @@ num_shapes = 5000
 for i in range(30):
     make_a_shape(t)
     t.right(360/num_shapes)
+turtle.exitonclick()
