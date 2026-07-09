@@ -8,6 +8,14 @@ name: Pentagon Crazy
 """
 
 
+********vc s
+
+
+
+
+
+
+
 import random
 import turtle
 
